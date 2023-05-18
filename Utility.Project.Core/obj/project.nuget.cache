@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7W60cj6ILmsnMqUDT8agLwYXjdiqT5L+Dk8rVsV+Y/32A38dO9HyIiJFqTGDuFwWcSCVB3SzGxI2C+8pE1GknQ==",
+  "dgSpecHash": "aQqjjv65p+AD9T3BhKnG88iixaeCOQ82QcSeRvu3PX+JxXd5MzAQNj9K1a5YJiLrZRCe00OF1IpbhkAvPa7R1Q==",
   "success": true,
   "projectFilePath": "C:\\Projects\\GitHub\\Utility.Project\\Utility.Project.Core\\Utility.Project.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\flurl\\3.0.6\\flurl.3.0.6.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
