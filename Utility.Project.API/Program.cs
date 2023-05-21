@@ -1,3 +1,6 @@
+using Utility.Project.Business.Middleware;
+using Utility.Project.Core.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -29,7 +32,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.UseExceptionMiddleware<>();
+app.UseExceptionMiddleware<CustomExceptionMiddleware>();
 
 
 app.UseAuthorization();

@@ -15,4 +15,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Utility.Project.Business\Utility.Project.Business.csproj" />
+    <ProjectReference Include="..\Utility.Project.Core\Utility.Project.Core.csproj" />
+  </ItemGroup>
+
 </Project>
