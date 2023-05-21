@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Options;
+using Utility.Project.API.Modules;
 using Utility.Project.Business.Middleware;
 using Utility.Project.Business.Service.Abstraction.Mongo;
 using Utility.Project.Business.Service.Concrete.Mongo;
@@ -10,39 +11,38 @@ using Utility.Project.Core.Model.AppSettings;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 ConfigurationManager configuration = builder.Configuration;
 
-//Configure
-builder.Services.Configure<MongoDbSettings>(configuration.GetSection("MongoDbSettings"));
+//Settings
+builder.Services.AddSettings(configuration);
 
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddControllers(); 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
 
-//
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-builder.Services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
+//DataAccess
+builder.Services.AddDataAccess(configuration);
 
 
 
 
 //IOptions Configure
-builder.Services.AddSingleton<IMongoDbSettings>(sp => sp.GetRequiredService<IOptions<MongoDbSettings>>().Value);
+builder.Services.AddOptionsConfigure(configuration);
 
 
 
 
 //Service Configure
-builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddServices(configuration);
+
+
+ 
 
 var app = builder.Build();
-
-
 
 
 

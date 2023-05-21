@@ -26,7 +26,7 @@ namespace Utility.Project.Core.Data.Concrete.Mongo
             var companyIdentifier = this.HttpContextAccessor.HttpContext.Request.Headers["CompanyIdentifier"];
 
             var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
-            _collection = database.GetCollection<TDocument>(companyIdentifier); //Header'dan gelen customerId'ye göre collection belirlenecek
+            _collection = database.GetCollection<TDocument>(companyIdentifier);
         }
 
 
