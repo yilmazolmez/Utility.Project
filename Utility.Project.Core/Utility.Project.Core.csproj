@@ -10,6 +10,7 @@
     <PackageReference Include="FluentValidation" Version="11.5.2" />
     <PackageReference Include="Flurl.Http" Version="3.2.4" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="MongoDB.Bson" Version="2.19.1" />
   </ItemGroup>
 
