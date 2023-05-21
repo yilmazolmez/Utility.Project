@@ -41,9 +41,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "Flurl.Http": {
               "target": "Package",
               "version": "[3.2.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.1, )"
             }
           },
           "imports": [

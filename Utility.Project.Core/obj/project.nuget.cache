@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "aQqjjv65p+AD9T3BhKnG88iixaeCOQ82QcSeRvu3PX+JxXd5MzAQNj9K1a5YJiLrZRCe00OF1IpbhkAvPa7R1Q==",
+  "dgSpecHash": "85v0tQQVIQgYoAy6BjaF+rhRSFsa+Cg+SvYeFwJXth9AKe/0JYoQujkRhRXhKJRyz1czp1nryQMKQqZEaKk1bg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\GitHub\\Utility.Project\\Utility.Project.Core\\Utility.Project.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\flurl\\3.0.6\\flurl.3.0.6.nupkg.sha512",
     "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\mongodb.bson\\2.19.1\\mongodb.bson.2.19.1.nupkg.sha512",
     "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
-    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\yilmaz.olmez\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
