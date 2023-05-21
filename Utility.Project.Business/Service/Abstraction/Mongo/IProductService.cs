@@ -11,11 +11,11 @@ namespace Utility.Project.Business.Service.Abstraction.Mongo
 {
     public interface IProductService : IMongoService<Product>
     {
-        Task<List<Product>> GettAll();
-        Task<DataResponse> Add(Product document);
-        Task<DataResponse> Update(Product document);
-        Task<DataResponse> Patch(Product document);
-        Task<DataResponse> Delete(Product document);
-        Task InsertMany(List<Product> document);
+        List<Product> GettAll();
+        DataResponse Add(Product document);
+        DataResponse Update(Product document);
+        DataResponse Patch(Product document);
+        DataResponse Delete(Product document);
+        void InsertMany(List<Product> document);
     }
 }
